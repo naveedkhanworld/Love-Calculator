@@ -1,0 +1,73 @@
+body{
+    background-image: url(./Love\ Wallpaper.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0 auto 0;
+
+}
+.calculator{
+    max-width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height:300px;
+    padding-top: 50px;
+    border-radius:20PX;
+    background-color: rgba(231, 98, 32, 0.356);  
+}
+.calculator:hover{
+    background-color: rgba(231, 98, 32, 0.583);
+    transition: all .5s;
+}
+input{
+    background-color:rgba(211, 209, 70, 0.446);
+    width: 85%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    color: rgb(186, 230, 186);
+}
+input::placeholder{
+    color: rgb(232, 175, 175);
+}
+input:hover{
+    width: 87%;
+    height: 55px;
+    transition: all .5s;
+}
+.logo h1{
+    font-size: 55px;
+    color: gold;
+}
+button{
+   margin-top: 30px;
+   width: 300px;
+   height: 50px;
+   font-size: 25px;
+   background-color: yellow;
+   border: none;
+   border-radius: 20px;
+}
+button:hover{
+    background-color: crimson;
+    color: white;
+    transition: all .5s;
+    cursor: pointer;
+    width: 320px;
+    height: 55px;
+}
+.output{
+    color: rgb(240, 210, 216);
+    font-family:Snell Roundhand, cursive;
+}
+#lovers{
+    font-size: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#dt{
+    color: white;
+}
